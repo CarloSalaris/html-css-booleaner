@@ -1,0 +1,150 @@
+
+/* Condizioni generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+/* Header */
+header {
+    width: 100vw;
+    height: 179px;
+    background-color: #4DA1FF;
+    background-image: url("../img/pattern.png");
+
+}
+
+header div {
+    height: 179px;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+
+}
+
+header div img {
+    height: 50%;
+    position: absolute;
+    bottom: 20px;
+
+}
+
+/* Corpo principale pagina */
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Titolo principale */
+#title-section {
+    margin-bottom: 20px;
+}
+
+#title-section h1 {
+    font-size: 56px;
+}
+
+.subtitle-author {
+    color: #818181 ;
+}
+
+.subtitle-author a {
+    color: #1AAAE6;
+    text-decoration: none;
+}
+
+.subtitle-date {
+    font-size: 15px;
+}
+
+/* sezione foto di portata */
+figure {
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-size: 15px;
+}
+
+/* Sezione articolo */
+
+article section {
+    margin-bottom: 25px;
+}
+
+/* Paragrafo */
+
+.highlighted-text{
+    background-color: yellow;
+}
+
+/* lista */
+
+article ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+/* tabella */
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+thead {
+    background-color: #1AAAE6;
+    color: white;
+    text-align: left;    
+}
+
+#wide-column {
+    width: 600px;
+}
+
+td {
+    height: 80px;
+}
+
+.row-color {
+    background-color: #B2E6F2;
+}
+
+/* Footer */
+footer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer h3 {
+    font-weight: 800;
+    color: #818181 ;
+    margin-bottom: 10px;
+}
+
+.footer-img {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 180px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.footer-img a {
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-monitor {
+    background-image: url(../img/monitor.jpg);
+            
+}
+
+#footer-graph {
+    background-image: url(../img/graph.jpg);
+}

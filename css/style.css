@@ -60,6 +60,28 @@ figcaption {
     font-size: 15px;
 }
 
+/* Sezione articolo */
+
+article section {
+    margin-bottom: 25px;
+}
+
+/* Paragrafo */
+
+.highlighted-text{
+    background-color: yellow;
+}
+
+/* lista */
+
+article ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+/* tabella */
+
+
 /* Footer */
 footer {
     margin: 10px;

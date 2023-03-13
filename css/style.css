@@ -1,0 +1,60 @@
+
+/* Condizioni generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+/* Header */
+header {
+    width: 100vw;
+    height: 179px;
+    position: relative;
+    background-color: #4DA1FF;
+    background-image: url("../img/pattern.png");
+
+
+}
+
+header img {
+    height: 50%;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 20px;
+
+}
+
+/* Footer */
+footer {
+    margin: 10px;
+}
+
+footer h3 {
+    font-weight: 800;
+    color: #818181 ;
+    margin-bottom: 10px;
+}
+
+.footer-img {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+#footer-monitor {
+    background-image: url(../img/monitor.jpg);
+            
+}
+
+#footer-graph {
+    background-image: url(../img/graph.jpg);
+}

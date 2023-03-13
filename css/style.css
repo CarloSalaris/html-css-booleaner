@@ -80,7 +80,28 @@ article ul{
 }
 
 /* tabella */
+table {
+border-collapse: collapse;
+width: 100%;
+}
 
+thead {
+    background-color: #1AAAE6;
+    color: white;
+    text-align: left;    
+}
+
+#wide-column {
+    width: 600px;
+}
+
+td {
+    height: 80px;
+}
+
+.row-color {
+    background-color: #B2E6F2;
+}
 
 /* Footer */
 footer {

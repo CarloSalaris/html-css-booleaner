@@ -26,12 +26,15 @@ header img {
 }
 
 /* Corpo principale pagina */
-
 main {
     margin: 10px;
 }
 
 /* Titolo principale */
+#title-section {
+    margin-bottom: 20px;
+}
+
 #title-section h1 {
     font-size: 56px;
 }
@@ -40,8 +43,21 @@ main {
     color: #818181 ;
 }
 
+.subtitle-author a {
+    color: #1AAAE6;
+}
+
 .subtitle-date {
-    font-size: 16px;
+    font-size: 15px;
+}
+
+/* sezione foto di portata */
+figure {
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-size: 15px;
 }
 
 /* Footer */
@@ -62,7 +78,7 @@ footer h3 {
     font-size: 23px;
     font-weight: 800;
     color: white;
-    height: 200px;
+    height: 180px;
     margin-bottom: 10px;
     padding: 10px;
 

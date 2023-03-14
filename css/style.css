@@ -1,8 +1,8 @@
 
 /* Condizioni generali */
 *{
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-size: 20px;
 
 }
@@ -14,6 +14,9 @@ header {
     position: relative;
     background-color: #4DA1FF;
     background-image: url("../img/pattern.png");
+    /* Alternativa: */
+    /* background-size: 30%;  */
+    /* Così l'immagine di background varia con la pagina */
 
 }
 
@@ -81,9 +84,10 @@ article ul{
 }
 
 /* tabella */
+
 table {
 border-collapse: collapse;
-width: 100%;
+/*Alternativa: border-spacing: 0; */
 }
 
 thead {
@@ -93,7 +97,7 @@ thead {
 }
 
 #wide-column {
-    width: 600px;
+    width: 40%;
 }
 
 td {

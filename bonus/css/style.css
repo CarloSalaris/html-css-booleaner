@@ -19,7 +19,7 @@ header {
 
 header div {
     height: 179px;
-    max-width: 1200px;
+    max-width: 80%;
     margin: auto;
     position: relative;
 
@@ -34,7 +34,7 @@ header div img {
 
 /* Corpo principale pagina */
 main {
-    max-width: 1200px;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -114,7 +114,7 @@ td {
 
 /* Footer */
 footer {
-    max-width: 1200px;
+    max-width: 80%;
     margin: auto;
 }
 
